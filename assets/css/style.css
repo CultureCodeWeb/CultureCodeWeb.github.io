@@ -1,7 +1,7 @@
 /**
- * Name: Pertness - Coming Soon Template
- * Version: 1.0   
- * Author: web-master72         
+ * Name: Culture Code Web Agency - Coming Soon 
+ * Version: 1.0
+ * Author: web-master72
 **/
 
 /* ---------------------------------------------- /*
@@ -32,6 +32,10 @@ img {
     color: #fff;
 }
 
+
+.subscribe-submit {
+  margin-left: 30px;
+}
 /* Inputs styles
 ------------------------------------------------- */
 
@@ -59,10 +63,10 @@ img {
     color: #fff;
 }
 
-.btn-default:hover, 
-.btn-default:focus, 
-.btn-default:active, 
-.btn-default.active, 
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
 .open .dropdown-toggle.btn-default {
     color: #fff;
     background-color: #51B2DA;
@@ -73,8 +77,8 @@ img {
     box-shadow: 0 2px 0 #3D97BD;
 }
 
-.btn-default:focus { 
-    outline: none !important; 
+.btn-default:focus {
+    outline: none !important;
 }
 
 /* ---------------------------------------------- /*
@@ -95,7 +99,7 @@ img {
 }
 
 .content-inverse {
-    background: #fff;  
+    background: #fff;
 }
 
 /* ---------------------------------------------- /*
@@ -132,7 +136,7 @@ img {
 }
 
 .features .fa-inverse {
-    color: #555;   
+    color: #555;
 }
 
 /* ---------------------------------------------- /*
@@ -142,8 +146,8 @@ img {
 .sb-form {
     background: #dae9f4;
     border-radius: 5px;
-    padding: 15px 0 0; 
-    overflow: hidden; 
+    padding: 15px 0 0;
+    overflow: hidden;
 }
 
 .sb-form .btn {
@@ -231,7 +235,7 @@ h4 { font-size: 22px; }
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding: 0 5px;
     margin-bottom: 10px;
-    font-size: 110px; 
+    font-size: 110px;
 }
 
 #countdown > div > i {
@@ -250,9 +254,9 @@ h4 { font-size: 22px; }
     position: fixed;
     right: 0;
     top: 0;
-    z-index: 999; 
+    z-index: 999;
 }
- 
+
 #status, .status-mes {
     background-image: url(../images/270.GIF);
     background-position: center;
@@ -262,16 +266,16 @@ h4 { font-size: 22px; }
     margin: -100px 0 0 -100px;
     position: absolute;
     top: 50%;
-    width: 200px; 
+    width: 200px;
 }
- 
+
 .status-mes {
     background: none;
     left: 0;
     margin: 0;
     padding-left: 12px;
     text-align: center;
-    top: 65%; 
+    top: 65%;
     font-family: 'Bitter', serif;
     font-size: 14px;
     font-weight: 700;

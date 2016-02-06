@@ -1,12 +1,12 @@
 (function($){
-   	
-    // Preloader 	 
-   	$(window).load(function() { 
+
+    // Preloader
+   	$(window).load(function() {
        	$('#status').fadeOut();
-        $('#preloader').delay(350).fadeOut('slow'); 
+        $('#preloader').delay(350).fadeOut('slow');
         $('body').delay(350).css({'overflow':'visible'});
-        $('#countdown').addClass('animated bounceInDown');  
-    }); 
+        $('#countdown').addClass('animated bounceInDown');
+    });
 
 	$(document).ready(function() {
 
@@ -22,22 +22,22 @@
 
         // Background slideshow
         $.backstretch([
-            'assets/images/bg3.jpg', 
-            'assets/images/bg2.jpg', 
+            'assets/images/bg3.jpg',
+            'assets/images/bg2.jpg',
             'assets/images/bg1.jpg'
         ], {duration: 3000, fade: 750});
 
         // Countdown
-		$('#countdown').countdown('2015/01/01', function(event) {	// your date here 
+		$('#countdown').countdown('2015/01/01', function(event) {	// your date here
         	$(this).html(event.strftime(''
-            	+ '<div><div>%D</div><i>Days</i></div>' 
+            	+ '<div><div>%D</div><i>Days</i></div>'
             	+ '<div><div>%H</div><i>Hours</i></div>'
             	+ '<div><div>%M</div><i>Minutes</i></div>'
             	+ '<div><div>%S</div><i>Seconds</i></div>'
         	));
     	});
 
-        // Google Map 
+        // Google Map
         map = new GMaps({
             el: '#map',
             scrollwheel: false,
@@ -48,9 +48,9 @@
         map.addMarker({
             lat: -12.044333,
             lng: -77.028333,
-            title: 'Pertness',
+            title: 'Culture Code Web Agency',
             infoWindow: {
-                content: '<p><strong>Pertness</strong><br/> We are here</p>'
+                content: '<p><strong>Culture Code Web Agency</strong><br/> We are here</p>'
             }
         });
 
